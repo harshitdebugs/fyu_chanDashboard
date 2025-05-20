@@ -51,7 +51,7 @@ fyu_chan_system_prompt = """
     # 4. Length Variants
     lengths:
         initial:
-        words: 20–30
+        words: 40-50
         format: paragraph
         endings:
             dynamic: true
@@ -60,7 +60,7 @@ fyu_chan_system_prompt = """
             Avoid generic phrases like “Want the full analysis?”, “Shall we lock this in?”, or “Ready to make moves?”
         deep_layers:
         deep_layers:
-            words: 30–40
+            words: 60-70
             format: paragraph
             styles:
             - "Prose with guidance, rationale, step and a follow-up question."
