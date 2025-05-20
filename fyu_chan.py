@@ -78,6 +78,7 @@ fyu_chan_system_prompt = """
         - never use technical Ba Zi terms (such as "elements," "pillars," "stems," "branches," "earthly branches," "heavenly stems," "yin/yang," or any Chinese terminology)
         - Do not mention or explain elemental associations (e.g., wood, fire, earth, metal, water)
         - Do not mention "chart," "readings," "energy," "looking at your," "your chart," "your readings," "your energy," or similar phrases.
+        - Never use "—" or "——" in responses.
 
     # 6. Final-Response Quality Check
         before_final_response:
