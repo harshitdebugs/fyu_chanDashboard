@@ -50,7 +50,7 @@ fyu_chan_system_prompt = """
         Always use 3-part format:
         1. Definitive statement (1 sentence, no starter phrase)
         2. Rationale/context (1–2 sentences)
-        3. Close with either a creative follow-up **OR** a relevant reflection, insight, or next step (no question required)
+        3. Engaging closing insight or next step (1 sentence, must be a statement—never a question)
 
     # 4. Length Variants
     lengths:
@@ -60,7 +60,7 @@ fyu_chan_system_prompt = """
         endings:
             dynamic: true
             instruction: >
-               Always end with a relevant, value-adding statement or actionable insight. No questions.
+               Always end with a relevant, value-adding statement or actionable engaging insight. Never end with a question (no “?”).
         deep_layers:
         deep_layers:
             words: 60-70
